@@ -1,0 +1,101 @@
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --gray:#CCC;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Email{
+    border-radius: 15px;
+    border: 1px solid #007bff;
+    width: 500px;
+    padding: 10px;
+    box-shadow: none;
+}
+.Email:focus{
+    border: 2px solid #0d73e0;
+}
+.Password{
+    border-radius: 15px;
+    border: 1px solid #007bff;
+    width: 500px;
+    padding: 10px;
+    box-shadow: none;
+}
+.Password:focus{
+    border: 2px solid #0d73e0;
+}
+.myBtn{
+    width: 200px;
+    margin: 30px;
+}
+
+.header input
+{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 19px;
+    border: 1px solid #62b8e6;
+}
+a{
+    text-decoration: none;
+}
+span,i{
+    color:#007bff;
+}
+input:focus{
+    outline: none;
+}
+.myCard{
+    padding: 5px;
+    border-radius: 20px;
+border:1px solid #62b8e6;
+margin: 12px 71px
+}
+.allData{
+    display: flex;
+    margin: 11px;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px grey;
+}
+.myImage{
+    border-radius: 50%;
+}
+.header a{
+    text-decoration: none;
+    margin-left: 116px;
+    background-color: #03A9F4;
+    border-radius: 3px;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    color: #FFF;
+    font-size: 20px;
+
+}
